@@ -1,7 +1,5 @@
 @media screen and (max-width: 768px) {
-    #main_div {
-        margin-left: 3rem;
-    }
+   
 
     .card-container {
         display: flex;
