@@ -1,5 +1,20 @@
 @media screen and (max-width: 768px) {
     #main_div {
-       margin-left: -0.5rem;
+        margin-left: 3rem;
     }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    .card {
+        width: 100%;
+        /* Set the width to 100% to take the full width of the container */
+        max-width: 20rem;
+        /* Set a maximum width to ensure it's not too wide on mobile devices */
+    }
+
+
 }
