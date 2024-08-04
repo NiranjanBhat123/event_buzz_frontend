@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+    #main_div {
+       margin-left: 4rem;
+    }
+}
