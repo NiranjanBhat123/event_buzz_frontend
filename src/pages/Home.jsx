@@ -17,6 +17,7 @@ import ShareDialog from '../components/ShareDialog';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { useNavigate } from 'react-router-dom';
+import '../css/Home.css';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -70,7 +71,7 @@ export default function RecipeReviewCard() {
   return (
     <>
       <h1 style={{ color: 'orange', textAlign: "center", marginTop: "8rem", fontSize: '2.3rem', marginBottom: "3rem" }}>Upcoming Events !</h1>
-      <div style={{ display: 'grid', gap: '5rem', padding: '1rem', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 2fr))' }}>
+      <div id='main_div' style={{ display: 'grid', gap: '5rem', padding: '1rem', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 2fr))' }}>
         {events.length > 0 ? (
           events.map((event, index) => (
             <Card key={event._id} sx={{ background: "#343434", color: "white", padding: ".5rem", width: "25rem", height: expandedId === index ? "auto" : "fit-content" }} >
