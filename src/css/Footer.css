@@ -64,6 +64,10 @@
 
 
   @media (max-width: 768px) {
+      .footer{
+          padding:3rem;
+          width:100%;
+      }
     .footer-content {
       flex-direction: column; /* Stack items vertically */
       text-align: center; /* Center text */
