@@ -69,7 +69,9 @@
           width:100%;
       }
     .footer-content {
-      flex-direction: column; /* Stack items vertically */
+        margin-left:2rem;
+        margin-right:2rem;
+      flex-direction: row; /* Stack items vertically */
       text-align: center; /* Center text */
     }
   
