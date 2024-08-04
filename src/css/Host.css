@@ -33,14 +33,4 @@
 
 
   
-  @media screen and (max-width: 768px) {
-   .host-form-container{
-       margin-left: 2rem;
-       margin-right: 2rem;
-    }
-    #button-div{
-      margin-left: -12rem;
-    }
-    
-    
-}
+
