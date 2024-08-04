@@ -250,7 +250,7 @@ const Host = () => {
                                     },
                                 },
                             }}
-                            sx={{ mt: 2 ,mb:"1rem"}}
+                            sx={{ mt: 2, mb: "1rem" }}
                         />
 
 
@@ -287,16 +287,19 @@ const Host = () => {
 
                     </Grid>
                 </Grid>
-                <Button
-                    type="submit"
-                    style={{ marginLeft: "22rem" }}
-                    variant="contained"
-                    className="submit-button"
-                    sx={{ mt: 3, mb: 2 }}
-                    startIcon={loading ? <CircularProgress size={24} sx={{ color: 'white' }} /> : null}
-                >
-                    {loading ? 'Submitting...' : 'Submit'}
-                </Button>
+                <div id='button-div'>
+                    <Button
+                        id='submit-button'
+                        type="submit"
+                        style={{ marginLeft: "22rem" }}
+                        variant="contained"
+                        className="submit-button"
+                        sx={{ mt: 3, mb: 2 }}
+                        startIcon={loading ? <CircularProgress size={24} sx={{ color: 'white' }} /> : null}
+                    >
+                        {loading ? 'Submitting...' : 'Submit'}
+                    </Button>
+                </div>
             </Box>
 
             <Toaster />
@@ -306,8 +309,3 @@ const Host = () => {
 };
 
 export default Host;
-
-
-
-
-
