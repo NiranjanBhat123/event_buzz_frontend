@@ -1,0 +1,122 @@
+.event-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    position: relative;
+    height: 200px;
+    width:80%; 
+    margin-left: 10rem;
+    margin-top: 8rem;
+    border-radius: 10px;
+    background-color: #343434;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#C0C0C0;
+  }
+  
+  .event-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-date-time {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
+    gap: 20px; /* Adjust gap between grid items */
+    margin: 20px auto;
+    max-width: 1000px;
+  }
+  
+  .event-detail {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Light grey */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color:black;
+  }
+  
+  .detail-label {
+    color:black;
+    font-weight: bold;
+  }
+  
+  .detail-value {
+    color:black;
+    margin-left: 10px;
+  }
+  
+  .event-description {
+    margin-top:3rem;
+    width: 70%;
+    margin-left: 14rem;
+  }
+  
+  .event-description h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color:#C0C0C0;
+    text-align: justify;
+    
+  }
+  
+
+
+  .register-button {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 42rem;
+    height:3rem;
+    width:8rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #ffcc80; /* Lighter shade of orange on hover */
+  }
+
+
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border: 2px solid #C0C0C0;
+    box-shadow: 24px;
+    padding: 16px;
+    border-radius: 10px;
+  }
