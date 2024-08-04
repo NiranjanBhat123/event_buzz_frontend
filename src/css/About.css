@@ -121,11 +121,11 @@ h1 {
 
   .description-container {
     padding: 0.8rem;
-    margin: 3rem 0;
+    margin: 5rem 0;
     font-size: 0.9rem;
   }
    .services-container {
-    margin-left:2rem;
+    margin-left:3rem;
     gap: 1.5rem;
   }
 
