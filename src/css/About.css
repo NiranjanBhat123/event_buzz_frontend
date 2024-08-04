@@ -116,12 +116,17 @@ h1 {
   h1 {
     font-size: 1.8rem;
     margin-top: 1.5rem;
+    text-align:centre;
   }
 
   .description-container {
     padding: 0.8rem;
-    margin: 1rem 0;
+    margin: 3rem 0;
     font-size: 0.9rem;
+  }
+   .services-container {
+    margin-left:2rem;
+    gap: 1.5rem;
   }
 
   .service-title {
