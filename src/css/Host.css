@@ -23,9 +23,24 @@
   .host-form-container .MuiButton-root {
     background-color: #ff6600;
     color: #ffffff;
+    
   }
   
   .host-form-container .MuiButton-root:hover {
     background-color: #e65c00;
   }
   
+
+
+  
+  @media screen and (max-width: 768px) {
+   .host-form-container{
+       margin-left: 2rem;
+       margin-right: 2rem;
+    }
+    #button-div{
+      margin-left: -12rem;
+    }
+    
+    
+}
