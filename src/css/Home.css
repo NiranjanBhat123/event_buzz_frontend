@@ -9,9 +9,8 @@
 
     .card {
         width: 80%;
-        /* Set the width to 100% to take the full width of the container */
         max-width: 16rem;
-        /* Set a maximum width to ensure it's not too wide on mobile devices */
+        
     }
 
 
