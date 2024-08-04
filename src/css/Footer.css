@@ -61,3 +61,25 @@
     color: #0077b5; /* LinkedIn color */
   }
   
+
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center text */
+    }
+  
+    .footer-logo {
+      margin: 0; /* Remove margin */
+      margin-bottom: 1rem; /* Add bottom margin for spacing */
+    }
+  
+    .footer-info {
+      margin: 0; /* Remove margin */
+      gap: 1rem; /* Reduce gap between items */
+    }
+  
+    .social-icons {
+      margin-top: 1rem; /* Add top margin for spacing */
+    }
+  }
